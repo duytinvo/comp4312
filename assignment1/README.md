@@ -37,6 +37,6 @@ script named [**_storage_download_files.py_**](storage_download_files.py) to:
     
 ## Code Skeletons
 You are expected to work on the two files below which are provided general skeletons:
-1. storage_upload_files.py: Uploads a list of files to the bucket.
-2. storage_download_files.py: Downloads a list of blobs from the bucket.
+1. [**storage_upload_files.py**](storage_upload_files.py): Uploads a list of files to the bucket.
+2. [**storage_download_files.py**](storage_download_files.py): Downloads a list of blobs from the bucket.
 Please complete all preserved parts under the line **# Your code is here** to form executable scripts.
