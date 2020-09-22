@@ -34,7 +34,7 @@ def list_blobs(bucket_name):
 
 
 def return_blobs(bucket_name):
-    """Lists all the blobs in the bucket."""
+    """Return a list of all the blobs in the bucket."""
     # bucket_name = "your-bucket-name"
 
     storage_client = storage.Client()
