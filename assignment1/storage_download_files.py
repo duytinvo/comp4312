@@ -15,7 +15,9 @@ def download_blobs(bucket_name: str, source_blob_names: list, destination_file_n
     storage_client = storage.Client()
     bucket = storage_client.bucket(bucket_name)
 
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
 
@@ -30,7 +32,9 @@ if __name__ == "__main__":
     # 1. List all files in the bucket "comp4312_studentid" on gcp and assign to source_blob_names
     bucket_name = "comp4312_studentid"
     source_blob_names = []
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
     # An example of returned values in source_blob_names
@@ -41,7 +45,9 @@ if __name__ == "__main__":
     import os
     download_path = "images/download/"
     destination_file_names = []
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
     # An example of returned values in destination_file_names
@@ -57,7 +63,9 @@ if __name__ == "__main__":
 
     # 4. Delete the bucket "comp4312_studentid" on gcp
     from storage_delete_bucket import delete_bucket
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
 

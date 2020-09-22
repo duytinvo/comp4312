@@ -15,7 +15,9 @@ def upload_blobs(bucket_name: str, source_file_names: list, destination_blob_nam
     storage_client = storage.Client()
     bucket = storage_client.bucket(bucket_name)
 
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
 
@@ -27,14 +29,18 @@ if __name__ == "__main__":
     from storage_create_bucket import create_bucket
     # 1. Create a bucket named "comp4312_studentid" on gcp
     bucket_name = "comp4312_studentid"
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
     # 2. List all files in the 'images/upload/' folder and assign to source_file_names
     import glob
     upload_path = "images/upload/"
     source_file_names = []
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
     # An example of returned values in source_file_names
@@ -45,7 +51,9 @@ if __name__ == "__main__":
     # 3. Extract basename of each path in source_file_names to form destination_blob_names
     import os
     destination_blob_names = []
-    # Your code is here
+    #####################
+    # Your code is here #
+    ####################
 
 
     # An example of returned values in destination_blob_names
