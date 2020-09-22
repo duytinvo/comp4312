@@ -1,4 +1,4 @@
-# Assignment 1
+# Exercise 3 - Assignment 1
 
 ## Introduction
 Some utility functions provided by GOOGLE are introduced in this assignment to help us interact with 
