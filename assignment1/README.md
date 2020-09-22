@@ -35,18 +35,18 @@ script named [**_storage_download_files.py_**](storage_download_files.py) to:
     - Download all files on the *comp4312_studentid* bucket with names listed in source_blob_names and save to paths in destination_file_names
 - Delete the bucket *comp4312_studentID* on gcp
     
-## Code Skeletons
+## Code Skeletons and Requirements
 You are expected to work on the two files below which are provided general skeletons:
 1. [**storage_upload_files.py**](storage_upload_files.py): Uploads a list of files to the bucket.
 2. [**storage_download_files.py**](storage_download_files.py): Downloads a list of blobs from the bucket.
 
-Please complete all preserved parts under the blocks:
+**Please complete all preserved parts under the blocks:**
 ```python
     #####################
     # Your code is here #
     ####################
 ```
-to form executable scripts.
+**to form executable scripts.**
 
 ## Install venv to run codes
 
