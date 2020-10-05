@@ -30,7 +30,7 @@ You are required to:
     2. **create_bk**: creates a bucket
     3. **delete_bk**: deletes a bucket
 2. Add all necessary files before deployment
-3. Use ```gcloud app deploy``` to deploy 
+3. Deploy this project on Google AppEngine
 
 ## Hints
 1. Copy all codes in the **assignment2** folder to a new folder called **comp4312_assignment2_YourStudentID**
