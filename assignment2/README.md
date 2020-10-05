@@ -34,7 +34,7 @@ You are required to:
 
 ## Hints
 1. Copy all codes in the **assignment2** folder to a new folder called **comp4312_assignment2_YourStudentID**
-2. Create an venv
+2. Create an venv (Unix-based OS only)
     ```commandline
     python3.8 -m venv venv
     source venv/bin/activate
