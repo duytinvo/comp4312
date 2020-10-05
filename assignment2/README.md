@@ -58,4 +58,4 @@ in the *images/upload* folder to the *comp4312_1000* bucket
 7. Test locally by running ```python app.py``` and accessing these endpoints
 8. Deploy this folder on Google AppEngine by running ```gcloud app deploy``` 
 9. Create a github repository named **comp4312_assignment2_YourStudentID** and push all codes into it
-
+10. [IMPORTANT] Go to **AppEngine --> Settings** and click on **Disable Application** to save usage cost
