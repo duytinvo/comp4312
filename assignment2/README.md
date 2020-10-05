@@ -32,6 +32,11 @@ You are required to:
 2. Add all necessary files before deployment
 3. Deploy this project on Google AppEngine
 
+Expectations: If completing this project properly, we are able to serve three endpoints online, 
+that users could use web browsers to access url addresses of these endpoints 
+(e.g. *https://oceanic-depth-288706.ue.r.appspot.com/* and 
+*https://oceanic-depth-288706.ue.r.appspot.com/list_files?bucket_name=comp4312_1000*)
+
 ## Hints
 1. Copy all codes in the **assignment2** folder to a new folder called **comp4312_assignment2_YourStudentID**
 2. Create an venv (Unix-based OS only)
