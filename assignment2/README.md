@@ -28,7 +28,7 @@ You are required to:
 1. Complete all preserved parts in [**app.py**](app.py) to build three endpoints:
     1. **list_files**: shows all blobs in a bucket
     2. **create_bk**: creates a bucket
-    3. **delete_bk**: delete a bucket
+    3. **delete_bk**: deletes a bucket
 2. Add all necessary files before deployment
 3. Use ```gcloud app deploy``` to deploy 
 
