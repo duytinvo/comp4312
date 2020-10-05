@@ -22,7 +22,7 @@ from google.cloud import storage
 app = Flask(__name__)
 
 # Configure this environment variable via app.yaml
-CLOUD_STORAGE_BUCKET = os.environ['CLOUD_STORAGE_BUCKET']
+CLOUD_STORAGE_BUCKET = os.environ.get('CLOUD_STORAGE_BUCKET', "comp4213_datasets")
 
 
 @app.route('/')
