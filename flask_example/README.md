@@ -1,4 +1,4 @@
-# Train, Tune, and Serve ML Models Using FLASK
+# Lecture 8: Train, Tune, and Serve ML Models Using FLASK
 
 In this lecture, we will go through some widely-used ML approaches ranging from Naive Bayes to Feed-Forward 
 Neural Network for constructing a supervised classifier.
