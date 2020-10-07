@@ -172,9 +172,9 @@ if __name__ == '__main__':
     
     argparser.add_argument('--train_file', help='Trained file', default="../data/smsspamcollection/train.csv", type=str)
     
-    argparser.add_argument('--dev_file', help='Developed file', default="../data/smsspamcollection/dev.csv", type=str)
+    argparser.add_argument('--dev_file', help='Developed file', default="../data/smsspamcollection/test.csv", type=str)
     
-    argparser.add_argument('--test_file', help='Tested file', default="../data/smsspamcollection/dev.csv", type=str)
+    argparser.add_argument('--test_file', help='Tested file', default="../data/smsspamcollection/test.csv", type=str)
     
     argparser.add_argument("--tfidf", action='store_true', default=False, help="tfidf flag")
     
@@ -194,7 +194,7 @@ if __name__ == '__main__':
         os.mkdir(args.model_dir)
     args.model_name = os.path.join(args.model_dir, args.ml_cls + ".pickle")
 
-    # model = train(args)
+    model = train(args)
     # measures = test(args, args.model_name)
     # label, prob = predict("call us to win a price", args.model_name)
 
